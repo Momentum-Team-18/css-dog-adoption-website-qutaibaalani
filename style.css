@@ -11,7 +11,7 @@ html * {
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px 0px 20px;
-    
+
 }
 
 .info {
@@ -32,26 +32,70 @@ html * {
 .space {
     margin-left: 10px;
 }
+
 p {
-margin: 20px 140px 20px 140px;
+    margin: 70px 140px 70px 140px;
 }
+
 .hours {
     margin-left: 140px;
 }
+
 .grid {
     display: grid;
     grid-template-rows: repeat(4, auto);
     grid-template-columns: repeat(3, auto);
-  }
-  .card {
+}
+
+.card {
     border-radius: 10px;
-   border: 1px solid #808080;
-   margin: 5px;
-   padding: 5px;
-  }
-  .dogs {
-    width:100%;
-  }
-  h4 {
-    font-weight:bolder
-  }
+    border: 1px solid #808080;
+    margin: 5px;
+    padding: 5px;
+}
+
+.dogs {
+    width: 100%;
+}
+
+h4 {
+    font-weight: bolder
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    align-items: center;
+
+}
+
+
+.aboutus img:hover {
+    opacity: 0.7;
+    background-color: #0037ff68;
+}
+
+.img-container {
+    position: relative;
+    width: 33%;
+    height: 300px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    color: #fff;
+    font-size: 2em;
+    text-shadow: 1px 1px 9px #000;
+    font-family: Arial Black;
+
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
