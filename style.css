@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
 
 html * {
-    font-family: Open Sans, Oswald;
+    font-family: 'open sans';
 }
 
 .container {
@@ -70,7 +70,6 @@ h4 {
 
 }
 
-
 .aboutus img:hover {
     opacity: 0.7;
     background-color: #0037ff68;
@@ -80,22 +79,42 @@ h4 {
     position: relative;
     width: 33%;
     height: 300px;
+    padding-top: 10%;
 }
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
+    right: 0;
+    bottom: 50%;
     transform: translate(-50%, -50%);
-    z-index: 10;
+    text-align: center;
     color: #fff;
-    font-size: 2em;
+    font-size: 2.5em;
     text-shadow: 1px 1px 9px #000;
     font-family: Arial Black;
-
 }
 
 .img {
     width: 100%;
     height: 100%;
+}
+
+.traits {
+    background-color: #89DEEF;
+    border-radius: 9px;
+    padding: 0px 5px 0px 5px;
+    ;
+    margin: 2px;
+}
+
+.traits-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adopt-style {
+    margin: auto;
+    padding: 10px;
 }
